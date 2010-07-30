@@ -1,0 +1,47 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/wp-galleria\n"
+"POT-Creation-Date: 2009-01-13 00:04+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: index.php:35
+#: index.php:47
+msgid "WordPress Galleria"
+msgstr ""
+
+#: index.php:50
+msgid "How to use it?"
+msgstr ""
+
+#: index.php:52
+msgid "Insert inside the content of a page or a post the shortcode: <code>[GALLERIA]</code>"
+msgstr ""
+
+#: index.php:53
+#, php-format
+msgid "Remmeber, the plugin will automaticaly generate all the galleries by fetching your direcotories with photos from <code>%1$s</code>."
+msgstr ""
+
+#: index.php:54
+#, php-format
+msgid "You can upload photos by using an ftp client like <a href=\"%1$s\">FileZilla</a>."
+msgstr ""
+
+#: index.php:55
+#, php-format
+msgid "WordPress Galleria would never look like now if not <a href=\"%1$s\">jQuery FancyBox</a>. Great thanks to him!"
+msgstr ""
+
+#: index.php:94
+msgid "Index"
+msgstr ""
+
+#: index.php:104
+msgid "No galleries/photos yet."
+msgstr ""

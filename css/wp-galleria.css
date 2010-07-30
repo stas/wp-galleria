@@ -1,0 +1,5 @@
+#wp-galleria {width: 100%;}
+#wp-galleria li.galleria-photo {list-style: none; display: inline; background: none;}
+#wp-galleria li.galleria-photo a:hover {background: none; text-decoration: none;}
+#wp-galleria li.galleria-photo a img {width: 100px; border: double #cecece;}
+#wp-galleria li.galleria-photo a img:hover {width: 100px; border: double #999;}
