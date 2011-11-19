@@ -3,8 +3,8 @@ Contributors: sushkov
 Donate link: http://stas.nerd.ro/donate/
 Tags: gallery, photos, seamless integration, auto-creation, foto, gallery, galleria fancybox
 Requires at least: 2.3
-Tested up to: 3.0.1
-Stable tag: 1.3
+Tested up to: 3.2.1
+Stable tag: 1.4
 
 == Description ==
 
@@ -23,12 +23,7 @@ Checkout the live demo.
 Version 1.1 is almost a complete rewrite of the plugin.
 We needed something simple and working in small time, so was born wp-galleria.
 
-Current limitations (mostly no limitations since v1.1):
-
-* Do not use `.` (dots) in folder names. (Fixed)
-* Limit your directory tree up to 3 levels only. (Fixed)
 * If it looks broken, check out the CSS, or [report a bug](http://stas.nerd.ro/blog/index.php/about).
-* No translations.
 
 == Installation ==
 
@@ -59,6 +54,9 @@ Current limitations (mostly no limitations since v1.1):
 
 = 1.3 =
 * Upgraded to be compatible with WordPress MultiSite
+
+= 1.4 =
+* Fixed the issue with broken rel=""
 
 == Frequently Asked Questions ==
 

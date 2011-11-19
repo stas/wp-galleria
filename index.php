@@ -3,7 +3,7 @@
 Plugin Name: WordPress Galleria
 Plugin URI: http://softwareliber.ro/poze/
 Description: Create photo galleries by just uploading directories of photos. A <a href="http://softwareliber.ro/">GSL</a> project!
-Version: 1.3
+Version: 1.4
 Author: Stas Sușcov
 Author URI: http://stas.nerd.ro/
 */
@@ -130,8 +130,8 @@ function galleria_content()
 				$galleria_img_h
 				);
 		    $galleria_imgs[] = "\t"."<li class=\"galleria-photo\">
-					<a href=\"".$galleria_web_loc.$file."\" rel=\"".str_replace('_', ' ', $galleria_query_path)."\" >
-					<img src=\"".$galleria_web_loc."thumbs/".$file."\" alt=\"".str_replace('_', ' ', $galleria_query_path)."\" />
+					<a href=\"".$galleria_web_loc.$file."\" rel=\"".md5($galleria_query_path)."\" >
+					<img src=\"".$galleria_web_loc."thumbs/".$file."\" alt=\"".esc_html('_', ' ', $galleria_query_path)."\" />
 					</a></li>"."\n";
 		}
 	    }
